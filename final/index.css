@@ -1,0 +1,50 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+#personal:hover {
+	background-color: #CCCCFF;
+	color:white;
+}
+#experience:hover {
+	background-color: #CCCCFF;
+}
+#experience {
+	padding: 10px
+}
+table {
+	border-collapse: seperated;
+	border: 1px solid;
+	width: 1000px;	
+}
+table:hover {
+	border: 1px solid #FFFF77;
+}
+
+
+caption {
+	font-size: 25px;
+}
+
+th {
+	text-align: center;
+	padding:10px;
+}
+
+td {
+	text-align: left;
+	padding:10px;
+}
+
+tr:nth-child(even) {
+	background-color: #DDDDDD;
+}
+tr:nth-child(odd) {
+	background-color: white;
+}
+
+p {
+	text-align: center;
+	text-shadow: 3px 3px 3px #CCCCCC;
+	font-size: 30px;
+}
